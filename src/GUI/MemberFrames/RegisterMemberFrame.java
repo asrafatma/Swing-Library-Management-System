@@ -44,25 +44,25 @@ public class RegisterMemberFrame implements ActionListener{
         phoneTextField = new JTextField();
         emailTextField = new JTextField();
 
-        idLabel.setText("Enter your id: ");
+        idLabel.setText("Enter id: ");
         idLabel.setBounds(10,90,680,25);
         idLabel.setBackground(new Color(10,20,35));
         idLabel.setFont(new Font("Inter",Font.BOLD,14));
         idLabel.setForeground(Color.WHITE);
 
-        nameLabel.setText("Enter your name: ");
+        nameLabel.setText("Enter name: ");
         nameLabel.setBounds(10,150,680,25);
         nameLabel.setBackground(new Color(10,20,35));
         nameLabel.setFont(new Font("Inter",Font.BOLD,14));
         nameLabel.setForeground(Color.WHITE);
 
-        phoneLabel.setText("Enter your phone Number: ");
+        phoneLabel.setText("Enter phone Number: ");
         phoneLabel.setBounds(10,210,680,25);
         phoneLabel.setBackground(new Color(10,20,35));
         phoneLabel.setFont(new Font("Inter",Font.BOLD,14));
         phoneLabel.setForeground(Color.WHITE);
 
-        emailLabel.setText("Enter your email: ");
+        emailLabel.setText("Enter email: ");
         emailLabel.setBounds(10,270,680,25);
         emailLabel.setBackground(new Color(10,20,35));
         emailLabel.setFont(new Font("Inter",Font.BOLD,14));
