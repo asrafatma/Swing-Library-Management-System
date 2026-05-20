@@ -6,8 +6,8 @@ import java.util.ArrayList;
 public class FileManager {
     private final ArrayListsManager alm = ArrayListsManager.instance;
 
-    private final String booksFile = "books.ser";
-    private final String issuedFile = "issuedbooks.ser";
+    private final String BOOKS_FILE = "books.ser";
+    private final String ISSUED_BOOKS_FILE = "issuedbooks.ser";
     private final String MEMBERS_FILE = "members.ser";
     private final String ROOM_FILE="rooms.ser";
     public void loadDataFromFile() {
@@ -17,7 +17,7 @@ public class FileManager {
 
     private void loadBooks() {
 
-        File file = new File(booksFile);
+        File file = new File(BOOKS_FILE);
         if (!file.exists())
         {
             return;
@@ -33,7 +33,7 @@ public class FileManager {
     }
 
     public void saveBooksDataToFile() {
-        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(booksFile)))
+        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(BOOKS_FILE)))
         {
             out.writeObject(alm.getBooksList());
         }
@@ -45,7 +45,7 @@ public class FileManager {
 
     private void loadIssuedBooks()
     {
-        File file = new File(issuedFile);
+        File file = new File(ISSUED_BOOKS_FILE);
         if (!file.exists())
         {
             return;
@@ -65,7 +65,7 @@ public class FileManager {
 
     public void saveIssuedBooksDataToFile()
     {
-        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(issuedFile)))
+        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(ISSUED_BOOKS_FILE)))
         {
             out.writeObject(alm.getIssuedBooksList());
         }
