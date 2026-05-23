@@ -9,5 +9,10 @@
     through a centralized graphical interface.
 </p>
 <h2 align="center">Team</h2>
+<ul>
+    <li>Ahmad Albash Zia - <a href="https://github.com/albashzia">albashzia</a></li>
+    <li>Asra - <a href="http://github.com/asrawazir">asra-06</a></li>
+    <li>Eshal Naeem Raja - <a href="https://github.com/EshalNaeem028">EshalNaeem028</a> </li>
+</ul>
 <h2 align="center">Project Structure</h2>
 <h2 align="center">Workflow</h2>
