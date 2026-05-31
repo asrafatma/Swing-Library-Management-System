@@ -29,6 +29,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-books.ser
-issuedbooks.ser
-rooms.ser
+Resources/books.ser
+Resources/issuedbooks.ser
+Resources/rooms.ser
