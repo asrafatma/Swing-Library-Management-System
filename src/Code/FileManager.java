@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class FileManager {
     private final ArrayListsManager alm = ArrayListsManager.instance;
 
-    private final String BOOKS_FILE = "books.ser";
+    private final String BOOKS_FILE = "Resources/books.ser";
     private final String ISSUED_BOOKS_FILE = "issuedbooks.ser";
     private final String MEMBERS_FILE = "members.ser";
     private final String ROOM_FILE="rooms.ser";
