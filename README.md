@@ -4,6 +4,25 @@ A comprehensive Java Swing-based desktop application designed to streamline libr
 
 ---
 
+## 📖 Introduction
+
+The Library Management System is a Java desktop application developed to modernize and automate the management of library resources and study facilities. Traditional manual systems often suffer from delayed record handling, inventory mismatches, reservation conflicts, and poor accessibility of information. This project addresses those challenges through an integrated digital platform. The system combines book inventory management, member administration, and study room scheduling into one cohesive software environment. Built using Java Swing and Object Serialization, the application provides persistent storage, modular navigation, and a visually consistent graphical user interface.
+
+### 🎯 System Objectives
+
+The primary objectives of the system include:
+
+- Digitizing library operations
+- Reducing human errors
+- Improving record accessibility
+- Automating borrowing workflows
+- Maintaining accurate inventory quantities
+- Organizing member information
+- Managing physical study room reservations
+- Providing a centralized management platform
+
+---
+
 ## 📌 Features
 
 ### 🛠️ Core Modules
@@ -124,6 +143,6 @@ Swing-Library-Management-System/
 
 ## 👥 Contributors
 
-- **Ahmad Abash Zia** ([albashzia](https://github.com/albashzia))
-- **Asra Fatma** ([asrafatma](https://github.com/asrafatma))
-- **Eshal Naeem Raja** ([EshalNaeem028](https://github.com/EshalNaeem028))
+- **Ahmad Abash Zia** [albashzia](https://github.com/albashzia)
+- **Asra Fatma** [asrafatma](https://github.com/asrafatma)
+- **Eshal Naeem Raja** [eshaln](https://github.com/eshaln)
