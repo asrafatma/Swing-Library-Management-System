@@ -33,7 +33,7 @@ public class SearchMemberByIdFrame implements ActionListener {
 
         siFrame = new CreateFrame();
         siLabel = new CreateLabel("Search Member By ID");
-        siSubmitButton = new CreateSubmitButton("Search" ,560, 120);
+        siSubmitButton = new CreateSubmitButton("Search" ,560, 125);
         siBackButton = new CreateBackButton();
         siExitButton = new CreateExitButton();
 
