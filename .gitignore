@@ -29,5 +29,4 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-Resources/issuedbooks.ser
 Resources/rooms.ser
