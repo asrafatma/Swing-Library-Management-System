@@ -32,7 +32,7 @@ public class SearchMemberByNameFrame implements ActionListener {
 
         snFrame = new CreateFrame();
         snLabel = new CreateLabel("Search Member By Name");
-        snSubmitButton = new CreateSubmitButton("Search",560, 120);
+        snSubmitButton = new CreateSubmitButton("Search",560, 125);
         snBackButton = new CreateBackButton();
         snExitButton = new CreateExitButton();
 
