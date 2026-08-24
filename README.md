@@ -146,3 +146,7 @@ Swing-Library-Management-System/
 - **Ahmad Abash Zia** [albashzia](https://github.com/albashzia)
 - **Asra Fatma** [asrafatma](https://github.com/asrafatma)
 - **Eshal Naeem Raja** [eshaln](https://github.com/eshaln)
+
+## License
+
+This project is developed for learning and educational purposes.
