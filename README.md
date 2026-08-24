@@ -1,4 +1,4 @@
-# Swing Library Management System
+<h1 align="center">Swing Library Management System</h1>
 
 A comprehensive Java Swing-based desktop application designed to streamline library management operations, including book inventory tracking, member registration, book issuing/returning, and study room reservation management.
 
